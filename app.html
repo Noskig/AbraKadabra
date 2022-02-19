@@ -2,7 +2,7 @@
 <html lang="en" class="h-100">
 
 <head>
-    <title>App Name: A coding Project By Jonatan Hallqvist</title>
+    <title>ThreeFives: A coding Project By Jonatan Hallqvist</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -22,7 +22,7 @@
     <!-- === Nav Section === -->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"> <img src="img/Favicon-logo.png" width="30" height="24" class="d-inline-block align-text-bottom" > App Name</a>
+            <a class="navbar-brand" href="#"> <img src="img/Favicon-logo.png" width="30" height="24" class="d-inline-block align-text-bottom" > ThreeFives</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
                 aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -39,7 +39,7 @@
                         <a class="nav-link" href="code.html">The Code</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" target="_blank" href="">Git Repo</a><!--Link To git-->
+                        <a class="nav-link" target="_blank" href="https://github.com/Noskig/ThreeFives">Git Repo</a><!--Link To git-->
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" target="_blank" href="https://jonatanhallqvist.netlify.app/">About</a><!--Link To portfolio-->
@@ -52,7 +52,41 @@
     <!-- === Main Section === -->
     <main class="flex-shrink-0">
         <div class="container">
-
+            <div class="row row-cols-1 row-cols-lg-2 mt-5">
+                <div class="col border-end border-2 border-bottom ">
+                    <h2>ThreeFives App</h2>
+                    <p class="lead">The app counts and looks for your numbers</p>
+                </div>
+                <div class="col">
+                        <form class="form-control">
+                            <div class="col">
+                                <h5>Enter a first number</h5>
+                                <input type="number" id="firstNumber" aria-label="First Number" value="3">
+                            </div>
+                            <div class="col">
+                                <h5>Enter a Second number</h5>
+                                <input type="number" id="secondNumber" aria-label="Second Number" value="5">
+                            </div>
+                        </from>
+                        <button class="btn btn-dark btn-lg mt-2" id="submitBtn">Submit</button>
+                </div>
+                <div class="col">
+                    <h2>Instructions</h2>
+                    <p>Enter your numbers and find their multibles easily</p>
+                </div>
+                <div class="col">
+                    <div class="col">
+                        <h2>Results</h2>
+                        <div>
+                            <table class="table" id="results">
+                                <th>All results</th>
+                                <!-- Results go here-->
+                                
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
           <!-- === Footer Section === -->

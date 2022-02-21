@@ -1,2 +1,2 @@
-# MiniSite-Template
- Site Template for JS Projects
+# ThreeFives
+ A javascript exercise in numbers and tables

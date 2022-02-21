@@ -1,8 +1,8 @@
 
 :root{
-    --primary-color: #aaaaa0;
+    --primary-color: #c8ca56;
     --secondary-color: #f0e32c;
-    --dark-color: #292929;
+    --dark-color: #2e2444;
     --white-color:#dfeaf3;
 
 }
@@ -11,6 +11,22 @@ body{
     color: var(--dark-color);
 
 
+}
+
+.jsFunc{
+    color:var(--primary-color);
+}
+
+.Abra{
+    color:darkgreen;
+}
+
+.Kadabra{
+    color:darkblue;
+}
+.AbraKadabra{
+    color:red;
+    font-weight: bold;
 }
 
 nav{
